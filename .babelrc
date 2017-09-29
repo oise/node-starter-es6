@@ -1,0 +1,10 @@
+{
+  "presets": [
+    "env"
+  ],
+  "ignore": [
+    "**/*.lock",
+    "**/*.log",
+    "node_modules"
+  ]
+}
