@@ -17,7 +17,7 @@ app.use(`${config.url}/cars`, carsRoute);
 
 //Setup Server
 app.listen(port, () => {
-  console.log('Server Started');
+  console.log(`Server Started at :${config.serverPort}${config.url}`);
 });
 
 
